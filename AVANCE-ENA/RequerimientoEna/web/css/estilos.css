@@ -1,0 +1,220 @@
+
+.panel, .panel2 {
+    margin-top: 10px;
+    border: #666 1px solid;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.panel{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.panel2{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.panel h1 {
+    color: blue;
+}
+
+.panel form p label {
+    font-weight: bold;
+} 
+
+.panel form p input[type="text"],
+.panel form p input[type="password"]{
+    margin-top: 10px;
+    width: 60%;
+    padding: 5px;
+    color: #999;
+    display: block;
+}
+
+.panel form p input[type="submit"]{
+    margin-top: 10px;
+    padding: 7px 35px 7px 35px;
+    background-color: #666;
+    color: #fff;
+}
+
+
+@media(max-width:500px){
+    .panel{
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+    }
+}
+
+.plani{
+    background-color: #ccc;
+    width: 100%;
+}
+
+.plani thead tr td {
+    background-color: #555;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.plani tbody tr td {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.panel form p input[type="date"]{
+    margin-top: 10px;
+    width: 58%;
+    padding: 5px;
+    color: #999;
+    display: block;
+}
+
+.panel form p select {
+    margin-top: 10px;
+    width: 60%;
+    padding: 5px;
+    color: #999;
+    display: block;
+}
+
+.tablaSLT{
+    width: 100%;
+}
+
+.tablaSLT tbody tr td {
+    width: 25%;
+}
+
+.cssslt {
+    padding: 5px 25px 5px 10px;
+    width: 100%;
+    margin-bottom: 20px; 
+}
+.menu {
+    text-align: center; 
+    vertical-align: top;
+    margin-top: 10px;
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 50px;
+
+}
+
+.button1 input[type="submit"]{
+    margin-top: 10px;
+    width: 250px;
+    padding: 7px 35px 7px 35px;
+    padding: 5px;
+
+}
+
+.button2 input[type="submit"]{
+
+}
+
+.button3 input[type="submit"]{
+
+}
+
+.panelmenu {
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 100px;
+    border: #363544 3px solid;
+    border-radius: 10px;
+    padding: 100px;
+    background-color:#ccc;
+}
+
+
+.pnl01 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    border: coral 3px solid;
+    border-radius: 10px;
+    padding: 80px;
+
+}
+
+.pnl03 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    border: coral 3px solid;
+    border-radius: 10px;
+    padding: 80px;
+
+}
+
+.pnl02 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    border: coral 3px solid;
+    border-radius: 10px;
+    padding: 80px;
+
+}
+
+
+
+.btn-guardar {
+    margin-top: 10px;
+    padding: 7px 35px 7px 35px;
+    background-color: #666;
+    color: #fff;
+
+}
+
+.btn-ingresar {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 105px 20px 105px;
+    background-color: #5D5C70;
+    color: #fff;
+    margin-left: 150px;
+    margin-right: 50px;
+
+}
+
+.btn-consultar {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 100px 20px 100px;
+    background-color: #5D5C70;
+    color: #fff;
+    margin-left: 150px;
+    margin-right: 50px;
+
+}
+
+.btn-cerrar {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px 110px 20px 110px;
+    background-color: #5D5C70;
+    color: #fff;
+    margin-left: 150px;
+    margin-right: 50px;
+
+}
+
+.iniciar {
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 100px;
+    color: #006666;
+    padding-top: 30px;
+
+}
+.comentario {
+    padding: 20px 110px 20px 110px;
+    
+}
